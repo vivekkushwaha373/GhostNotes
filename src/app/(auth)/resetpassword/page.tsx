@@ -1,29 +1,25 @@
 'use client'
-import { zodResolver } from "@hookform/resolvers/zod"
+
 import Link from "next/link"
-import { useEffect, useState } from "react"
+import {useState } from "react"
 import { useForm } from "react-hook-form"
-import { z } from "zod"
 import { useToast } from "@/components/ui/hooks/use-toast"
-import { useRouter } from "next/navigation"
-import { signUpSchema } from "@/schemas/signUpSchema"
-import { useDebounceValue, useDebounceCallback } from 'usehooks-ts'
 import axios, { AxiosError } from 'axios';
 import { ApiResponse } from "@/types/ApiResponse"
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Loader2 } from "lucide-react"
 
 const page = () => {
 
-    const [username, setUsername] = useState('')
-    const [usernameMessage, setUsernameMessage] = useState('');
-    const [isCheckingUsername, setCheckingUsername] = useState(false);
+    
+
+  
     const [isSubmitting, setIsSubmitting] = useState(false);
-    const debounced = useDebounceCallback(setUsername, 300);
+    
     const { toast } = useToast();
-    const router = useRouter();
+    
 
     interface resetPass {
         email: string,
@@ -87,7 +83,7 @@ const page = () => {
                                             onChange={(e) => {
                                                 field.onChange(e)
                                                 //additional use case
-                                                debounced(e.target.value)
+                        
                                             }}
                                         />
                                     </FormControl>

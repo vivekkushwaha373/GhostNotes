@@ -2,7 +2,7 @@ import dbconnect from "@/lib/dbconnect";
 import UserModel from "@/model/User";
 import { z } from 'zod'
 import { usernameValidation } from '@/schemas/signUpSchema'
-import { Chela_One } from "next/font/google";
+
 
 const UsernameQuerySchema = z.object({
     username: usernameValidation

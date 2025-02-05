@@ -14,7 +14,7 @@ import * as z from 'zod';
 
 const VerifyAccount = () => {
     const router = useRouter();
-    const params = useParams<{ username: string }>();
+    const params = useParams();
     const { toast } = useToast();
 
 
