@@ -1,16 +1,3 @@
-# Anonymous Messaging Platform
-
-A secure anonymous messaging platform where users can send messages via unique links while protecting their identity. Enhanced with AI-powered message suggestions to improve user engagement.
-
----
-
-## 🎥 Demo Video
-
-[![Watch the video](https://img.youtube.com/vi/dmGHEz5VyAs/maxresdefault.jpg)](https://www.youtube.com/watch?v=dmGHEz5VyAs)  
-*Click the image above to watch the full walkthrough on YouTube.*
-
----
-
 ## 🌐 Live Demo
 
 Try the live deployed app here:  
@@ -24,6 +11,21 @@ Try the live deployed app here:
 - **Password:** 12345678
 
 ---
+
+# Anonymous Messaging Platform
+
+A secure anonymous messaging platform where users can send messages via unique links while protecting their identity. Enhanced with AI-powered message suggestions to improve user engagement.
+
+---
+
+## 🎥 Demo Video
+
+[![Watch the video](https://img.youtube.com/vi/dmGHEz5VyAs/maxresdefault.jpg)](https://www.youtube.com/watch?v=dmGHEz5VyAs)  
+*Click the image above to watch the full walkthrough on YouTube.*
+
+---
+
+
 
 ## ⚙️ Tech Stack
 
