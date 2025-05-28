@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anonymous Messaging Platform
 
-## Getting Started
+A secure anonymous messaging platform where users can send messages via unique links while protecting their identity. Enhanced with AI-powered message suggestions to improve user engagement.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎥 Demo Video
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![Watch the video](https://img.youtube.com/vi/dmGHEz5VyAs/maxresdefault.jpg)](https://www.youtube.com/watch?v=dmGHEz5VyAs)  
+*Click the image above to watch the full walkthrough on YouTube.*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Live Demo
 
-## Learn More
+Try the live deployed app here:  
+[https://ghost-notes-tau.vercel.app/](https://ghost-notes-tau.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔐 Login Credentials
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Email:** vivekkushwaha734@gmail.com  
+- **Password:** 12345678
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js (App Router)  
+- React.js  
+- TypeScript  
+- Tailwind CSS  
+- Google Gemini API (AI-powered message suggestions)  
+- Zod (input validation)  
+- JWT Authentication  
+- OTP-based Email Verification
+
+---
+
+## 🚀 Features
+
+- Anonymous messaging through unique, shareable links  
+- AI-driven message suggestions powered by Google Gemini API  
+- Secure authentication using JWT and OTP email verification  
+- Input validation with Zod to prevent unauthorized or invalid data  
+- Currently serving 30+ active users
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+-->wrapped in src
+                app/                // Next.js App Router pages and layouts
+                components/         // React UI components
+                context/            // Auth provider
+                helpers/            // to send mail
+                lib/                //db.connect  utils.ts
+                model/              //User.ts
+         
